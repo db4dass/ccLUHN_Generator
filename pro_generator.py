@@ -52,7 +52,7 @@ def Generador(bin_base):
     
     return int(bin_base)
 
-def Guardar_Tarjetas_Codigos_Fechas(cantidad):
+def Mostrar_Tarjetas_Codigos_Fechas(cantidad):
     tarjetas = list()
     tarjetas_no_validas = list()
     signal = True
@@ -101,7 +101,7 @@ if __name__ == '__main__':
     try:
         init()
         Setup()
-        Guardar_Tarjetas_Codigos_Fechas(args.cantidad)
+        Mostrar_Tarjetas_Codigos_Fechas(args.cantidad)
     
     except KeyboardInterrupt:
         print('[-] Programa finalizado')
