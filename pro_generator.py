@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
-#Author: 'f4stB4nd1t'
-#GitHub: 'f4stB4nd1t'
+#Author: 'Javier'
+#GitHub: 'Javier'
 
 import argparse
 import random
